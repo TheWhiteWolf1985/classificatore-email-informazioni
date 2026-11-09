@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Informativa privacy — Classificatore email familiare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="./">Classificatore email familiare</a><nav><a href="./">Home</a><a href="privacy.html">Informativa privacy</a></nav></div></header>
+<main class="wrap">
+  <h1>Informativa sulla privacy</h1>
+  <p class="date">Ultimo aggiornamento: 9 novembre 2026</p>
+  <p>Il Classificatore email familiare è un sistema privato gestito da Juri Zanella nell'HomeLab di famiglia. Aiuta a individuare messaggi relativi a pagamenti e sicurezza, segnalare le situazioni urgenti e fornire un riepilogo giornaliero. Non è un servizio distribuito al pubblico.</p>
+  <p>Contatto: <a href="mailto:jurizanella@gmail.com">jurizanella@gmail.com</a></p>
+  <h2>1. Accesso alle caselle</h2>
+  <p>Il sistema accede alle caselle Gmail solo dopo l'autorizzazione del titolare tramite Google. Richiede il permesso di lettura dei messaggi per individuare le email rilevanti. Non usa l'accesso Gmail per inviare, eliminare, archiviare o modificare i messaggi. Il titolare può revocare l'accesso nelle impostazioni del proprio account Google.</p>
+  <h2>2. Dati utilizzati</h2>
+  <p>Per svolgere la classificazione il sistema può leggere oggetto, indirizzo o dominio del mittente, data, identificativi e contenuto dei messaggi autorizzati, oltre a informazioni sulla presenza di allegati. I messaggi possono contenere dati personali o riservati. Il contenuto viene ridotto e minimizzato prima dell'elaborazione; la minimizzazione non garantisce la rimozione di tutti i dati personali.</p>
+  <h2>3. Elaborazione e conservazione</h2>
+  <p>Il flusso n8n, la coda PostgreSQL e il modello linguistico utilizzato per la classificazione sono eseguiti nell'HomeLab. La coda può conservare identificativi, oggetto, dominio del mittente, testo minimizzato, esito della classificazione e informazioni necessarie a evitare duplicazioni e gestire errori. Non è attualmente definita una cancellazione automatica a scadenza: il gestore deve amministrare la conservazione e la rimozione dei dati, comprese eventuali copie di backup.</p>
+  <h2>4. Avvisi Telegram</h2>
+  <p>Il sistema può inviare alla chat Telegram configurata avvisi urgenti e riepiloghi. Gli avvisi comprendono identificazione della casella, oggetto, dominio del mittente e stato o categoria; non includono il corpo dell'email. Telegram riceve e tratta questi dati per recapitare i messaggi secondo il proprio servizio.</p>
+  <h2>5. Uso dei dati Google</h2>
+  <p>I dati ottenuti dalle API Google sono utilizzati per le funzionalità familiari di classificazione e notifica descritte qui. Non sono venduti né utilizzati per pubblicità. L'uso e il trasferimento dei dati ricevuti dalle API Google sono soggetti alla <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, inclusi i requisiti Limited Use applicabili.</p>
+  <h2>6. Cancellazione e contatti</h2>
+  <p>Per interrompere l'accesso è possibile revocare l'autorizzazione Google. La revoca non cancella automaticamente i dati già presenti nell'HomeLab o negli eventuali backup: per richiederne la rimozione contattare il gestore all'indirizzo indicato sopra. Le email originali restano nella casella del relativo provider.</p>
+  <h2>7. Sicurezza e aggiornamenti</h2>
+  <p>L'accesso ai servizi dell'HomeLab e alle credenziali deve essere limitato alle persone autorizzate. Questa informativa sarà aggiornata se cambiano le modalità di trattamento o le funzionalità del sistema.</p>
+</main>
+<footer class="wrap">Progetto privato per uso familiare.</footer>
+</body>
+</html>
